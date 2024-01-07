@@ -25,6 +25,11 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@sveltejs/vite-plugin-svelte": "^3.0.1"
+		"@sveltejs/vite-plugin-svelte": "^3.0.1",
+		"dotenv": "^16.3.1",
+		"spotify-web-api-node": "^5.0.2"
+	},
+	"compilerOptions": {
+		"module": "CommonJS"
 	}
 }
